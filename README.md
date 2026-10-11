@@ -1,7 +1,5 @@
 # CycloidalActuator
 
-<br>
-
 # Overview
 This actuator project is essentially a proving ground to see if I could build and implement technology used in industrial robotics in a hobby setting. The control hardware is designed to work with a range of brushless DC motors including gimbal motors and stepper motors, controlling them with a FOC (Field Oriented Control) algorithm to get maximum performance. It also implements a 12:1 cycloidal gearbox to reduce the output to a more usable speed while increasing available torque. The drive implements CANBus communication to allow multiple drives to be controlled with a 3 wire (including ground) robust data network that because of its differential signaling is resistant to interference, similar to how USB works. Overall I would call this prototype a success, but there are definitely some things I would like to fix and improve upon in future designs.
 
