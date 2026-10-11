@@ -58,7 +58,7 @@ The final piece of the puzzle was the CANBus controller, which I built by hand s
 
 # Source Files
 CAD Design Files are in this repo in /src/ folder, 
-Onshape CAD View: <a href="https://cad.onshape.com/documents/a6bee5f61b98d1e1cb7f04f8/w/4900588bdb5d1e46219c141d/e/e800cc2db78500788dc58b32?renderMode=0&uiState=6acad9d343eb9e25a4ee513d">Cycloidal Drive Onshape</a>
+Onshape CAD View: <a href="https://cad.onshape.com/documents/33648b7e54c4d4e2de7ace25/w/9aa3ebcb439778296254b397/e/8d79e07f044a38655a9d68e0?renderMode=0&uiState=6acadacc88189f0bb211b0ae">V1,</a>  <a href="https://cad.onshape.com/documents/a6bee5f61b98d1e1cb7f04f8/w/4900588bdb5d1e46219c141d/e/e800cc2db78500788dc58b32?renderMode=0&uiState=6acad9d343eb9e25a4ee513d">V2</a>
 <br>
 PCB Design Files: https://github.com/chairlesengi/MotorCAN
 <br>
