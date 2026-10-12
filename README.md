@@ -5,6 +5,18 @@ This actuator project is essentially a proving ground to see if I could build an
 
 <br>
 
+# Source Files
+CAD Design Files are in this repo in /src/ folder, 
+Onshape CAD View: <a href="https://cad.onshape.com/documents/33648b7e54c4d4e2de7ace25/w/9aa3ebcb439778296254b397/e/8d79e07f044a38655a9d68e0?renderMode=0&uiState=6acadacc88189f0bb211b0ae">V1,</a>  <a href="https://cad.onshape.com/documents/a6bee5f61b98d1e1cb7f04f8/w/4900588bdb5d1e46219c141d/e/e800cc2db78500788dc58b32?renderMode=0&uiState=6acad9d343eb9e25a4ee513d">V2</a>
+<br>
+PCB Design Files: https://github.com/chairlesengi/MotorCAN
+<br>
+Driver Code (mostly for integrated test demo, not production ready and heavy AI use): https://github.com/chairlesengi/STMDRIVERCIRCLE
+<br>
+CANBus Tester Code (also mostly for integrated test, heavy AI use): https://github.com/chairlesengi/ESPMTRCONTROLLER
+
+<br>
+
 # Writeup
 
 # Cycloidal Gearbox
@@ -51,16 +63,4 @@ There were a few bugs to work out though, the main one being that the node would
 
 # CANBus Tester
 The final piece of the puzzle was the CANBus controller, which I built by hand soldering together an Adafruit QT PY ESP32-S3, an Adafruit CAN Pal for CANBus, an SSD1306 128x64 OLED display, as well as a button and a rotary encoder to control its menus, all integrated with two breadboard-like protoboards, laser cut plates, and M2 standoffs and screws. It uses USB power and connects via the CANBus connector on the motor driver PCB. Again, with the help of Codex, I wrote code that followed the same CAN spec as the driver and could send various commands over the CAN connection to the driver as well as read back status codes and errors.
-
-<br>
-
-# Source Files
-CAD Design Files are in this repo in /src/ folder, 
-Onshape CAD View: <a href="https://cad.onshape.com/documents/33648b7e54c4d4e2de7ace25/w/9aa3ebcb439778296254b397/e/8d79e07f044a38655a9d68e0?renderMode=0&uiState=6acadacc88189f0bb211b0ae">V1,</a>  <a href="https://cad.onshape.com/documents/a6bee5f61b98d1e1cb7f04f8/w/4900588bdb5d1e46219c141d/e/e800cc2db78500788dc58b32?renderMode=0&uiState=6acad9d343eb9e25a4ee513d">V2</a>
-<br>
-PCB Design Files: https://github.com/chairlesengi/MotorCAN
-<br>
-Driver Code (mostly for integrated test demo, not production ready and heavy AI use): https://github.com/chairlesengi/STMDRIVERCIRCLE
-<br>
-CANBus Tester Code (also mostly for integrated test, heavy AI use): https://github.com/chairlesengi/ESPMTRCONTROLLER
 
